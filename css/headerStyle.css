@@ -1,0 +1,37 @@
+/* Header styles */
+
+header{
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+#background{
+    position: fixed;
+        top: 0;
+        left: 0;
+    height: 13%;
+    width: 100%;
+    border-bottom: 10px ridge gray;
+    z-index: 1;
+}
+
+#header1{
+    font-family: wide latin;
+    font-size: 1.8em;
+    position: fixed;
+        top: 2%;
+        left: 29%;
+    text-align: center;
+    z-index: 1;
+}
+
+#header2{
+    color: white;
+    font-family: 'Lobster', cursive;
+    font-size: 1.4em;
+    position: fixed;
+        top: 6.5%;
+        left: 50%;
+    z-index: 1;
+}

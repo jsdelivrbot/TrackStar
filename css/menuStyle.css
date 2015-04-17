@@ -1,0 +1,22 @@
+#menu{
+    background-color: lightgray;
+    border-right: 10px groove gray;
+    border-bottom: 10px groove gray;
+    position: fixed;
+        top: calc(13% + 10px);
+        left: 0;
+    width: 13%;
+    height: 74.5%;
+    font-family: 'Marck Script', cursive;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px white;
+    white-space: normal;
+    z-index: 1;
+    padding: 2% 0 0 2%;
+}
+
+.menuOption{
+    text-align: left;
+    margin-left: 10%;
+}

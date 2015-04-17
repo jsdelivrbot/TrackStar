@@ -1,0 +1,26 @@
+/* selection styles */
+
+#mainContent3 h1{
+    margin-left: 40%;
+}
+.record{
+    width: 175px;
+    height: 125px;
+}
+#selections tr td figure{
+    border: 10px groove white;
+    background-color: lightgray;
+}
+#selections tr td figure figcaption{
+    text-shadow: 1px 1px 1px white;
+    font-size: 1.1em;
+    text-align: center;
+}
+#selections{
+    border-spacing: 50px;
+}
+#descrip{
+    font-size: 1.2em;
+    margin-left: 5%;
+    margin-top: 2%;
+}

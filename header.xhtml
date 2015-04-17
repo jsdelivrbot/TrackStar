@@ -1,0 +1,29 @@
+<head>
+    <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>    
+
+    <script type="text/javascript">
+        // width is in pixels
+        // width must be number as a string e.g. "1.5" 
+        // Using width > 2 gets messy!
+        function txtOutline(idName, color, width){
+        var top = "0 -" + width + "px " + color;
+        var right = width + "px 0 " + color;
+        var bottom = "0 " + width + "px " + color;
+        var left = "-" + width + "px 0 " + color;
+        var topLeft = "-" + width + "px -" + width + "px " + color;
+        var topRight = width + "px -" + width + "px " + color;
+        var botRight = width + "px " + width + "px " + color;
+        var botLeft = "-" + width + "px " + width + "px " + color;
+        var all8 = top + ", " + right + ", " + bottom + ", " + left + ", " + topLeft + ", " + topRight + ", " + botRight + ", " + botLeft; 
+
+        document.getElementById(idName).style.textShadow=all8;   
+        }
+    </script>        
+</head>
+
+
+<header>
+    <img id='background' src='images/vinylHeader.jpg' alt='dubplates' onload="txtOutline('header1','white','1.5'); txtOutline('header2','black','1')" />
+    <h1 id='header1'> TrackStar </h1>
+    <h2 id='header2'> Vintage Vinyl for Modern People </h2>
+</header>

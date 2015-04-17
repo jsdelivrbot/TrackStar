@@ -1,0 +1,26 @@
+/* index styles */
+
+#intro{
+    white-space: normal;
+    font-size: 1.2em;
+    margin: 2%;
+}
+
+#welcome{
+    margin-top: 2%;
+    position: relative;
+        left: 25%;
+}
+
+#welcome h1{
+    display: inline;
+    margin: 0 2%;
+    position: relative;
+        bottom: 36px;
+}
+
+#welcome img{
+    width: 9.125%;
+    height: 15.484%;        
+}
+

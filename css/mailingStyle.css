@@ -1,0 +1,26 @@
+/* mailingList styles */
+
+#mailingForm fieldset{
+    margin-bottom: 2%;
+    padding: 2%;
+}
+
+.formField{
+    display: inline;
+    margin-left: 1%;
+}
+
+#submitDiv{
+    margin-bottom: 5%;
+}
+
+#submit{
+    background-color: black;
+    border: 10px double white;    
+    color: black;
+    cursor: pointer;
+    font-family: wide latin;
+    font-size: 1.3em;
+    width: 20%;
+    height: 8%;
+}

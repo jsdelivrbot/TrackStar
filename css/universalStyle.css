@@ -1,0 +1,221 @@
+/* universal styles */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    height: 100%;
+    width: 100%;   
+}
+
+body{
+    background-color: lightsalmon;  
+    overflow-x: hidden;
+}
+
+.mainContent{
+    width: 77%;
+    height: calc (82% - 10px);
+    /* height is 5% less to account for footer */
+    position: absolute;
+        left: calc(13% + 10px);
+        top: calc(13% + 10px);
+    font-family: sans-serif;
+    padding: 2% 4%;
+}
+
+a:link      {color: blue;}
+a:visited   {color: purple;}
+a:hover     {color: green;}
+a:active    {color: brown;}
+
+/* Header styles */
+
+header{
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+#background{
+    position: fixed;
+        top: 0;
+        left: 0;
+    height: 13%;
+    width: 100%;
+    border-bottom: 10px ridge gray;
+    z-index: 1;
+}
+
+#header1{
+    font-family: wide latin;
+    font-size: 1.8em;
+    position: fixed;
+        top: 2%;
+        left: 29%;
+    text-align: center;
+    z-index: 1;
+}
+
+#header2{
+    color: white;
+    font-family: 'Lobster', cursive;
+    font-size: 1.4em;
+    position: fixed;
+        top: 6.5%;
+        left: 50%;
+    z-index: 1;
+}
+
+/* Menu styles */
+
+#menu{
+    background-color: lightgray;
+    border-right: 10px groove gray;
+    border-bottom: 10px groove gray;
+    position: fixed;
+        top: calc(13% + 10px);
+        left: 0;
+    width: 13%;
+    height: 69%;
+    font-family: 'Marck Script', cursive;
+    font-size: 150%;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px white;
+    white-space: normal;
+    z-index: 1;
+    padding: 2% 0 0 2%;
+}
+
+.menuOption{
+    text-align: left;
+    margin-left: 10%;
+}
+
+/* Footer styles */
+
+footer{
+    display: block;
+    width: 100%;
+    height: 5%;
+    border-top: 10px groove gray;
+    background-color: lightgray; 
+    font-size: 1.2em;
+    position: absolute;
+        left: 0;
+        top: 140%;
+    padding: 1%;
+    text-shadow: 1px 1px 1px white;   
+}
+
+#footerList{
+    position: relative;
+    left: 5%;
+}
+
+.footerItem{
+    list-style-type: none;
+    display: inline;
+    margin-left: 3%;
+}
+
+/* Index styles */
+
+#intro{
+    white-space: normal;
+    font-size: 1.2em;
+    margin: 2%;
+}
+
+#welcome{
+    margin-top: 2%;
+    position: relative;
+        left: 25%;
+}
+
+#welcome h1{
+    display: inline;
+    margin: 0 2%;
+    position: relative;
+        bottom: 36px;
+}
+
+#welcome img{
+    width: 9.125%;
+    height: 15.484%;        
+}
+
+/* news styles */
+
+#news1{
+    margin: 5% 37% 0 0;
+    text-align: center;
+}
+
+#news2{
+    margin-left: 6%;
+    font-size: 1.32em;
+    font-family: sans-serif;
+}
+
+#news2 li{
+    margin-bottom: 2%;
+    list-style-type: square;
+    list-style-image: url('../images/musicNote16.png');
+}
+
+/* selection styles */
+
+#mainContent3 h1{
+    margin-left: 40%;
+}
+.record{
+    width: 175px;
+    height: 125px;
+}
+#selections tr td figure{
+    border: 10px groove white;
+    background-color: lightgray;
+}
+#selections tr td figure figcaption{
+    text-shadow: 1px 1px 1px white;
+    font-size: 1.1em;
+    text-align: center;
+}
+#selections{
+    border-spacing: 50px;
+}
+#descrip{
+    font-size: 1.2em;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+/* mailingList styles */
+
+#mailingForm fieldset{
+    margin-bottom: 2%;
+    padding: 2%;
+}
+
+.formField{
+    display: inline;
+    margin-left: 1%;
+}
+
+#submitDiv{
+    margin-bottom: 5%;
+}
+
+#submit{
+    background-color: black;
+    border: 10px double white;    
+    color: black;
+    cursor: pointer;
+    font-family: wide latin;
+    font-size: 1.3em;
+    width: 20%;
+    height: 8%;
+}
